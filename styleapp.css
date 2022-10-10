@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.grid {
+  margin: 150px 300px 400px 570px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+}
+
+.kleur {
+  background-color: rgb(0, 0, 0);
+  margin: 80px 0 0 0;
+}
+
+.tekstkleur {
+  color: white;
+  text-align: center;
+}
+
+
+.restart {
+  font-family: "Times New Roman", Times, serif; 
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.restart:hover {
+  background-color: #000000; /* Green */
+  color: white;
+}
+
+
+
+
+@media only screen and (min-width: 1920px) {
+
+  .grid {
+    margin: 150px 300px 400px 760px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+  }
+
+}
